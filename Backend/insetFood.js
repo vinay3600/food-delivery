@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import foodModel from './models/FoodModel';
+import foodModel from './models/foodModel.js';
 import { food_list } from '../Frontend/src/assets/assets.js';
 
 dotenv.config();
